@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Gorille Gris]]></title>
-  <link href="http://ptitgraig.github.io/gorillegris/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Technique | Gorille Gris]]></title>
+  <link href="http://ptitgraig.github.io/gorillegris/blog/categories/technique/atom.xml" rel="self"/>
   <link href="http://ptitgraig.github.io/gorillegris/"/>
   <updated>2013-08-07T01:05:24+02:00</updated>
   <id>http://ptitgraig.github.io/gorillegris/</id>
@@ -24,13 +24,13 @@
 
 <p>Octopress est un moteur de blog statique. Qui dit statique, dit plusieurs avantages :
 1. Léger
-2. Pas d&#8217;appels à une base de donnée
+2. Pas d'appels à une base de donnée
 3. Pas de script côté serveur
-4. Du coup c&#8217;est super rapide !!</p>
+4. Du coup c'est super rapide !!</p>
 
-<p>Si vous êtes débutant, cette page est pour vous. Dans 15 étapes, vous aurez votre blog statique prêt à l&#8217;emploi.</p>
+<p>Si vous êtes débutant, cette page est pour vous. Dans 15 étapes, vous aurez votre blog statique prêt à l'emploi.</p>
 
-<h2>Installation d&#8217;Octopress sous Mac OSX Lion</h2>
+<h2>Installation d'Octopress sous Mac OSX Lion</h2>
 
 <ol>
 <li>Ouvrir le terminal</li>
