@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | Gorille Gris]]></title>
   <link href="http://ptitgraig.github.io/gorillegris/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://ptitgraig.github.io/gorillegris/"/>
-  <updated>2013-08-07T01:05:24+02:00</updated>
+  <updated>2013-08-07T09:18:32+02:00</updated>
   <id>http://ptitgraig.github.io/gorillegris/</id>
   <author>
     <name><![CDATA[Grégory Pelletey]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Créer un blog avec Octopress]]></title>
+    <title type="html"><![CDATA[Créer un blog avec Octopress 100% gratuit, pour les nuls]]></title>
     <link href="http://ptitgraig.github.io/gorillegris/blog/2013/08/07/blogguer-avec-octopress/"/>
     <updated>2013-08-07T00:50:00+02:00</updated>
     <id>http://ptitgraig.github.io/gorillegris/blog/2013/08/07/blogguer-avec-octopress</id>
-    <content type="html"><![CDATA[<h1>Créer un blog avec Octopress</h1>
-
-<h2>Introduction</h2>
+    <content type="html"><![CDATA[<h2>Introduction</h2>
 
 <p>Octopress est un moteur de blog statique. Qui dit statique, dit plusieurs avantages :
 1. Léger
@@ -33,7 +31,31 @@
 <h2>Installation d'Octopress sous Mac OSX Lion</h2>
 
 <ol>
-<li>Ouvrir le terminal</li>
+<li>Ouvrir le terminal, puis saisir Terminal : Ctrl+espace, puis Terminal dans l'invite de recherche.</li>
+<li>Installer Xcode. Dans l'appStore, chercher xcode. Cliquer sur le bouton &ldquo;gratuit&rdquo; (oui c'est gratuit :).</li>
+<li>Une fois installé, lancer Xcode</li>
+<li>Dans le menu, Xcode > Préférences > Downloads, puis cliquer sur le bouton &ldquo;install&rdquo; en face de la ligne &ldquo;Command Line Tool&rdquo;</li>
+<li>Installer RVM. Dans le Terminal, lancer la commande suivante :
+ curl -L <a href="https://get.rvm.io">https://get.rvm.io</a> | bash -s stable &mdash;ruby</li>
+<li>Suivre les instructions proposées</li>
+<li>Installer Ruby 1.9.3
+ rvm install 1.9.3
+ rvm use 1.9.3
+ rvm rubygems latest</li>
+<li>Dans le terminal, verifier que 1.9.3 est bien la dernière version, saisissez
+ ruby &mdash;version</li>
+<li>Installer Octopress, dans le Terminal, saisissez les lignes suivantes dans le Terminal:
+ git clone git://github.com/imathis/octopress.git octopress
+ cd octopress    # Vous utilisez RVM, On vous demandera de faire confiance au fichier .rvmrc (dites oui en tappant y).
+ ruby &mdash;version  # Ruby 1.9.3 devrait s'afficher</li>
+<li>Installer les dépendances: saisir les commandes suivantes dans le Terminal
+gem install bundler
+rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+bundle install</li>
+<li>Installer le thème d'Octopress par défaut
+rake install</li>
+<li>Installer Octopress avec les pages utilisateurs GitHub.<br/>
+Se rendre sur <a href="http://www.github.com/">le site de GitHub</a> et créer un compte gratuitement.</li>
 </ol>
 
 ]]></content>
