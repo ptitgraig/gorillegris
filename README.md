@@ -1,6 +1,10 @@
 gorillegris
 ===========
 
-Blog perso fabriqué avec Octopress
+Personal blog build with Octopress and hosted on Github pages written in French
 
-Hébergement gratuit grâce aux GitHub pages.
+# TODO 
+
+* french translation of dates
+* improve about page
+* add a bit of content ;)
